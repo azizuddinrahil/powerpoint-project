@@ -3,6 +3,6 @@ function getUserData() {
   console.log(details);
 }
 function moreText() {
-  const moreDetails = document.getElementsByClassName("addMoreText").value;
+  const moreDetails = document.querySelector(".addMoreText");
   console.log(moreDetails);
 }
