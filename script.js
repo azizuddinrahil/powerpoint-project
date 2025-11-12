@@ -3,6 +3,8 @@ function getUserData() {
   console.log(details);
 }
 function moreText() {
-  const moreDetails = document.querySelector(".addMoreText");
-  console.log(moreDetails);
+  const newinputs = document.querySelectorAll(".addMoreText input");
+  for (let i = 0; i < newinputs.length; i++) {
+    console.log(newinputs[i].value);
+  }
 }
