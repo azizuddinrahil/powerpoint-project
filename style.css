@@ -7,3 +7,6 @@
   margin: 30px;
   box-sizing: border-box;
 }
+#output {
+  white-space: pre-wrap;
+}
